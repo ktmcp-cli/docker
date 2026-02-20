@@ -1,0 +1,21 @@
+{
+  "name": "@ktmcp-cli/docker",
+  "version": "1.0.0",
+  "description": "Production-ready CLI for Docker Engine API - manage containers, images, networks and volumes",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": { "docker-api": "bin/docker-api.js" },
+  "keywords": ["docker", "containers", "engine", "cli", "api", "ktmcp", "devtools"],
+  "author": "KTMCP",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^12.0.0",
+    "axios": "^1.6.7",
+    "chalk": "^5.3.0",
+    "ora": "^8.0.1",
+    "conf": "^12.0.0"
+  },
+  "engines": { "node": ">=18.0.0" },
+  "repository": { "type": "git", "url": "git+https://github.com/ktmcp-cli/docker.git" },
+  "homepage": "https://killthemcp.com/docker-cli"
+}
